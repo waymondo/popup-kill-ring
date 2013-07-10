@@ -3,7 +3,11 @@
 ;; Copyright (C) 2010  khiker
 
 ;; Author: khiker <khiker.mail+elisp@gmail.com>
+;; URL: https://github.com/waymondo/popup-kill-ring
 ;; Keywords: popup, kill-ring, pos-tip
+;; Package-Requires: ((popup "0.4") (pos-tip "0.4))
+
+;; MELPA compatibility added by Justin Talbott
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -215,7 +219,7 @@ key is buffer name.
 value is list of points (start . end).
 this is internal variable for `popup-kill-ring'.")
 
-
+;;;###autoload
 ;;; Functions:
 
 (defun popup-kill-ring ()
