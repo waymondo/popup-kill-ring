@@ -5,7 +5,7 @@
 ;; Author: khiker <khiker.mail+elisp@gmail.com>
 ;; URL: https://github.com/waymondo/popup-kill-ring
 ;; Keywords: popup, kill-ring, pos-tip
-;; Package-Requires: ((popup "0.4") (pos-tip "0.4))
+;; Package-Requires: ((popup "0.4") (pos-tip "0.4"))
 
 ;; MELPA compatibility added by Justin Talbott
 
